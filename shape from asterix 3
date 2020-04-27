@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main(){
+int a,c=2,i,j,l,b;
+scanf("%d",&a);
+b=a;
+//"i" şeklin satırlarını kontrol eder
+//"i" controls the row of shapes
+for(i=0;i<a;i++){
+    //"j" kaç tane boşluk karakteri girileceğini kontrol eder
+    //"j" controls how many space character will print
+    for(j=b-1;0<j;j--){
+        printf(" ");
+    }
+    b--;
+    //"l" kaç tane asterix basılacağını kontrol eder
+    //"l" controls how many asterix will print
+        for(l=1;l<c;l++){
+        printf("*");
+    }
+//her satırdan sonra yeni satır karakterini çağırır
+//call the newline character after each row
+    printf("\n");
+    ++c;
+    }
+return 0;
+}
