@@ -11,3 +11,10 @@ dik üçgen bastırır.(Boyutu kullanıcıdan alınan sayıya göre değişir.)
 
 it prints the right triangle.(it's size changes if the value which enter by user changes.)
 
+#shape from asterix 3
+
+simetrik dik üçgen bastırır.(Boyutu kullanıcıdan alınan sayıya göre değişir.)
+
+it prints the symmetrical right triangle.(it's size changes if the value which enter by user changes.)
+
+
