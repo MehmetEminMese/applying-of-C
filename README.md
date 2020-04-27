@@ -1,5 +1,5 @@
 # applying-of-C
-#shape from asterix
+#shape from asterix 1
 
 yarım baklava dilimi bastırır.(Boyutu kullanıcıdan alınan sayıya göre değişir.)
 
