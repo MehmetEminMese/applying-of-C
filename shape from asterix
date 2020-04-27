@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main(){
+int b=2,a,i,j;
+scanf("%d",&a);
+//"i" şeklin satırlarını kontrol eder
+//"i" controls the line of shapes
+for(i=0;i<a;i++){
+        //"j" kaç tane asterix basılacağını kontrol eder
+        //"j" controls the how much asterix will print
+   for(j=1;j<b;j++){
+    printf("*");
+   }
+//her satırdan sonra yeni satır karakterini çağırır
+//call the newline character after each row
+   printf("\n");
+   b+=2;
+}
+//"b" nin değerini günceller
+//it updates the value of "b"
+b-=4;
+for(i=0;i<a-1;i++){
+   for(j=1;j<b;j++){
+    printf("*");
+   }
+   printf("\n");
+   b-=2;
+}
+return 0;
+}
+
