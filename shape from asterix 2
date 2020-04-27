@@ -3,10 +3,10 @@ int main(){
 int b=2,i,j,a;
 scanf("%d",&a);
 //"i" şeklin satırlarını kontrol eder
-//"i" controls the line of shapes
+//"i" controls the row of shapes
 for(i=0;i<a;i++){
         //"j" kaç tane asterix basılacağını kontrol eder
-        //"j" controls the how much asterix will print
+        //"j" controls how many asterix will print
     for(j=1;j<b;j++){
         printf("*");
     }
